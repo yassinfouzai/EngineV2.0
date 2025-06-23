@@ -19,15 +19,27 @@
 },
 {
   "directory": "/home/neo/GitHub/EngineV2.0/build",
+  "command": "/usr/bin/c++ -DGLFW_INCLUDE_NONE -I/home/neo/GitHub/EngineV2.0 -I/home/neo/GitHub/EngineV2.0/ThirdParty/glad/include -I/home/neo/GitHub/EngineV2.0/ThirdParty/glfw/include -std=gnu++17 -o CMakeFiles/EngineV2.dir/Engine/Core/Input.cpp.o -c /home/neo/GitHub/EngineV2.0/Engine/Core/Input.cpp",
+  "file": "/home/neo/GitHub/EngineV2.0/Engine/Core/Input.cpp",
+  "output": "CMakeFiles/EngineV2.dir/Engine/Core/Input.cpp.o"
+},
+{
+  "directory": "/home/neo/GitHub/EngineV2.0/build",
   "command": "/usr/bin/c++ -DGLFW_INCLUDE_NONE -I/home/neo/GitHub/EngineV2.0 -I/home/neo/GitHub/EngineV2.0/ThirdParty/glad/include -I/home/neo/GitHub/EngineV2.0/ThirdParty/glfw/include -std=gnu++17 -o CMakeFiles/EngineV2.dir/Engine/Platform/Window.cpp.o -c /home/neo/GitHub/EngineV2.0/Engine/Platform/Window.cpp",
   "file": "/home/neo/GitHub/EngineV2.0/Engine/Platform/Window.cpp",
   "output": "CMakeFiles/EngineV2.dir/Engine/Platform/Window.cpp.o"
 },
 {
   "directory": "/home/neo/GitHub/EngineV2.0/build",
-  "command": "/usr/bin/c++ -DGLFW_INCLUDE_NONE -I/home/neo/GitHub/EngineV2.0 -I/home/neo/GitHub/EngineV2.0/ThirdParty/glad/include -I/home/neo/GitHub/EngineV2.0/ThirdParty/glfw/include -std=gnu++17 -o CMakeFiles/EngineV2.dir/Engine/Core/Input.cpp.o -c /home/neo/GitHub/EngineV2.0/Engine/Core/Input.cpp",
-  "file": "/home/neo/GitHub/EngineV2.0/Engine/Core/Input.cpp",
-  "output": "CMakeFiles/EngineV2.dir/Engine/Core/Input.cpp.o"
+  "command": "/usr/bin/c++ -DGLFW_INCLUDE_NONE -I/home/neo/GitHub/EngineV2.0 -I/home/neo/GitHub/EngineV2.0/ThirdParty/glad/include -I/home/neo/GitHub/EngineV2.0/ThirdParty/glfw/include -std=gnu++17 -o CMakeFiles/EngineV2.dir/Engine/Renderer/Renderer.cpp.o -c /home/neo/GitHub/EngineV2.0/Engine/Renderer/Renderer.cpp",
+  "file": "/home/neo/GitHub/EngineV2.0/Engine/Renderer/Renderer.cpp",
+  "output": "CMakeFiles/EngineV2.dir/Engine/Renderer/Renderer.cpp.o"
+},
+{
+  "directory": "/home/neo/GitHub/EngineV2.0/build",
+  "command": "/usr/bin/c++ -DGLFW_INCLUDE_NONE -I/home/neo/GitHub/EngineV2.0 -I/home/neo/GitHub/EngineV2.0/ThirdParty/glad/include -I/home/neo/GitHub/EngineV2.0/ThirdParty/glfw/include -std=gnu++17 -o CMakeFiles/EngineV2.dir/Engine/Renderer/Shader.cpp.o -c /home/neo/GitHub/EngineV2.0/Engine/Renderer/Shader.cpp",
+  "file": "/home/neo/GitHub/EngineV2.0/Engine/Renderer/Shader.cpp",
+  "output": "CMakeFiles/EngineV2.dir/Engine/Renderer/Shader.cpp.o"
 },
 {
   "directory": "/home/neo/GitHub/EngineV2.0/build/ThirdParty/glfw/src",

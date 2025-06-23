@@ -2,6 +2,8 @@
 #include "Engine/Core/Timer.h"
 #include "Engine/Platform/Window.h"
 #include "Engine/Core/Input.h"
+#include "Engine/Renderer/Renderer.h"
+
 
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
@@ -25,8 +27,12 @@ int main() {
     LOG_INFO("Window and OpenGL initialized");
     LOG_INFO("OpenGL version: {}" << reinterpret_cast<const char*>(glGetString(GL_VERSION)));
 
-    Timer timer;
+    // Set initial viewport size
+    glfwSetFramebufferSizeCallback(window.GetNativeWindow(), Renderer::framebuffer_size_callback);
 
+    Renderer::Init();
+
+    Timer timer;
     while (!window.ShouldClose()) {
         float deltaTime = timer.GetDeltaTime();
 
@@ -47,14 +53,12 @@ int main() {
             LOG_INFO("Scroll Y: {}" << Input::GetScrollY());
         }
 
-        // Render
-        glClearColor(0.1f, 0.1f, 0.2f, 1.0f);
-        glClear(GL_COLOR_BUFFER_BIT);
-
-        window.SwapBuffers();
         window.PollEvents();
+        Renderer::Draw();
+        window.SwapBuffers();
     }
 
+    Renderer::Shutdown();
     window.Shutdown();
     return 0;
 }

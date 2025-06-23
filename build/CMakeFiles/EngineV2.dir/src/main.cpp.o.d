@@ -158,4 +158,5 @@ CMakeFiles/EngineV2.dir/src/main.cpp.o: \
  /home/neo/GitHub/EngineV2.0/ThirdParty/glad/include/glad/glad.h \
  /home/neo/GitHub/EngineV2.0/ThirdParty/glad/include/KHR/khrplatform.h \
  /home/neo/GitHub/EngineV2.0/ThirdParty/glfw/include/GLFW/glfw3.h \
- /home/neo/GitHub/EngineV2.0/Engine/Core/Input.h
+ /home/neo/GitHub/EngineV2.0/Engine/Core/Input.h \
+ /home/neo/GitHub/EngineV2.0/Engine/Renderer/Renderer.h

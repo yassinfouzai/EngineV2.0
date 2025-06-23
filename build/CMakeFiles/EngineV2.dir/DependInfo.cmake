@@ -12,6 +12,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/neo/GitHub/EngineV2.0/Engine/Core/Input.cpp" "CMakeFiles/EngineV2.dir/Engine/Core/Input.cpp.o" "gcc" "CMakeFiles/EngineV2.dir/Engine/Core/Input.cpp.o.d"
   "/home/neo/GitHub/EngineV2.0/Engine/Core/Timer.cpp" "CMakeFiles/EngineV2.dir/Engine/Core/Timer.cpp.o" "gcc" "CMakeFiles/EngineV2.dir/Engine/Core/Timer.cpp.o.d"
   "/home/neo/GitHub/EngineV2.0/Engine/Platform/Window.cpp" "CMakeFiles/EngineV2.dir/Engine/Platform/Window.cpp.o" "gcc" "CMakeFiles/EngineV2.dir/Engine/Platform/Window.cpp.o.d"
+  "/home/neo/GitHub/EngineV2.0/Engine/Renderer/Renderer.cpp" "CMakeFiles/EngineV2.dir/Engine/Renderer/Renderer.cpp.o" "gcc" "CMakeFiles/EngineV2.dir/Engine/Renderer/Renderer.cpp.o.d"
+  "/home/neo/GitHub/EngineV2.0/Engine/Renderer/Shader.cpp" "CMakeFiles/EngineV2.dir/Engine/Renderer/Shader.cpp.o" "gcc" "CMakeFiles/EngineV2.dir/Engine/Renderer/Shader.cpp.o.d"
   "/home/neo/GitHub/EngineV2.0/src/main.cpp" "CMakeFiles/EngineV2.dir/src/main.cpp.o" "gcc" "CMakeFiles/EngineV2.dir/src/main.cpp.o.d"
   "" "bin/EngineV2.0" "gcc" "CMakeFiles/EngineV2.dir/link.d"
   )

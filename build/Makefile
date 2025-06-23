@@ -285,6 +285,54 @@ Engine/Platform/Window.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/EngineV2.dir/build.make CMakeFiles/EngineV2.dir/Engine/Platform/Window.cpp.s
 .PHONY : Engine/Platform/Window.cpp.s
 
+Engine/Renderer/Renderer.o: Engine/Renderer/Renderer.cpp.o
+.PHONY : Engine/Renderer/Renderer.o
+
+# target to build an object file
+Engine/Renderer/Renderer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EngineV2.dir/build.make CMakeFiles/EngineV2.dir/Engine/Renderer/Renderer.cpp.o
+.PHONY : Engine/Renderer/Renderer.cpp.o
+
+Engine/Renderer/Renderer.i: Engine/Renderer/Renderer.cpp.i
+.PHONY : Engine/Renderer/Renderer.i
+
+# target to preprocess a source file
+Engine/Renderer/Renderer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EngineV2.dir/build.make CMakeFiles/EngineV2.dir/Engine/Renderer/Renderer.cpp.i
+.PHONY : Engine/Renderer/Renderer.cpp.i
+
+Engine/Renderer/Renderer.s: Engine/Renderer/Renderer.cpp.s
+.PHONY : Engine/Renderer/Renderer.s
+
+# target to generate assembly for a file
+Engine/Renderer/Renderer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EngineV2.dir/build.make CMakeFiles/EngineV2.dir/Engine/Renderer/Renderer.cpp.s
+.PHONY : Engine/Renderer/Renderer.cpp.s
+
+Engine/Renderer/Shader.o: Engine/Renderer/Shader.cpp.o
+.PHONY : Engine/Renderer/Shader.o
+
+# target to build an object file
+Engine/Renderer/Shader.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EngineV2.dir/build.make CMakeFiles/EngineV2.dir/Engine/Renderer/Shader.cpp.o
+.PHONY : Engine/Renderer/Shader.cpp.o
+
+Engine/Renderer/Shader.i: Engine/Renderer/Shader.cpp.i
+.PHONY : Engine/Renderer/Shader.i
+
+# target to preprocess a source file
+Engine/Renderer/Shader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EngineV2.dir/build.make CMakeFiles/EngineV2.dir/Engine/Renderer/Shader.cpp.i
+.PHONY : Engine/Renderer/Shader.cpp.i
+
+Engine/Renderer/Shader.s: Engine/Renderer/Shader.cpp.s
+.PHONY : Engine/Renderer/Shader.s
+
+# target to generate assembly for a file
+Engine/Renderer/Shader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EngineV2.dir/build.make CMakeFiles/EngineV2.dir/Engine/Renderer/Shader.cpp.s
+.PHONY : Engine/Renderer/Shader.cpp.s
+
 src/glad.o: src/glad.c.o
 .PHONY : src/glad.o
 
@@ -358,6 +406,12 @@ help:
 	@echo "... Engine/Platform/Window.o"
 	@echo "... Engine/Platform/Window.i"
 	@echo "... Engine/Platform/Window.s"
+	@echo "... Engine/Renderer/Renderer.o"
+	@echo "... Engine/Renderer/Renderer.i"
+	@echo "... Engine/Renderer/Renderer.s"
+	@echo "... Engine/Renderer/Shader.o"
+	@echo "... Engine/Renderer/Shader.i"
+	@echo "... Engine/Renderer/Shader.s"
 	@echo "... src/glad.o"
 	@echo "... src/glad.i"
 	@echo "... src/glad.s"

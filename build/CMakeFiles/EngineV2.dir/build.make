@@ -114,24 +114,10 @@ CMakeFiles/EngineV2.dir/Engine/Core/Timer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/EngineV2.dir/Engine/Core/Timer.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/neo/GitHub/EngineV2.0/Engine/Core/Timer.cpp -o CMakeFiles/EngineV2.dir/Engine/Core/Timer.cpp.s
 
-CMakeFiles/EngineV2.dir/Engine/Platform/Window.cpp.o: CMakeFiles/EngineV2.dir/flags.make
-CMakeFiles/EngineV2.dir/Engine/Platform/Window.cpp.o: /home/neo/GitHub/EngineV2.0/Engine/Platform/Window.cpp
-CMakeFiles/EngineV2.dir/Engine/Platform/Window.cpp.o: CMakeFiles/EngineV2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/neo/GitHub/EngineV2.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/EngineV2.dir/Engine/Platform/Window.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EngineV2.dir/Engine/Platform/Window.cpp.o -MF CMakeFiles/EngineV2.dir/Engine/Platform/Window.cpp.o.d -o CMakeFiles/EngineV2.dir/Engine/Platform/Window.cpp.o -c /home/neo/GitHub/EngineV2.0/Engine/Platform/Window.cpp
-
-CMakeFiles/EngineV2.dir/Engine/Platform/Window.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/EngineV2.dir/Engine/Platform/Window.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/neo/GitHub/EngineV2.0/Engine/Platform/Window.cpp > CMakeFiles/EngineV2.dir/Engine/Platform/Window.cpp.i
-
-CMakeFiles/EngineV2.dir/Engine/Platform/Window.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/EngineV2.dir/Engine/Platform/Window.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/neo/GitHub/EngineV2.0/Engine/Platform/Window.cpp -o CMakeFiles/EngineV2.dir/Engine/Platform/Window.cpp.s
-
 CMakeFiles/EngineV2.dir/Engine/Core/Input.cpp.o: CMakeFiles/EngineV2.dir/flags.make
 CMakeFiles/EngineV2.dir/Engine/Core/Input.cpp.o: /home/neo/GitHub/EngineV2.0/Engine/Core/Input.cpp
 CMakeFiles/EngineV2.dir/Engine/Core/Input.cpp.o: CMakeFiles/EngineV2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/neo/GitHub/EngineV2.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/EngineV2.dir/Engine/Core/Input.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/neo/GitHub/EngineV2.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/EngineV2.dir/Engine/Core/Input.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EngineV2.dir/Engine/Core/Input.cpp.o -MF CMakeFiles/EngineV2.dir/Engine/Core/Input.cpp.o.d -o CMakeFiles/EngineV2.dir/Engine/Core/Input.cpp.o -c /home/neo/GitHub/EngineV2.0/Engine/Core/Input.cpp
 
 CMakeFiles/EngineV2.dir/Engine/Core/Input.cpp.i: cmake_force
@@ -142,13 +128,57 @@ CMakeFiles/EngineV2.dir/Engine/Core/Input.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/EngineV2.dir/Engine/Core/Input.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/neo/GitHub/EngineV2.0/Engine/Core/Input.cpp -o CMakeFiles/EngineV2.dir/Engine/Core/Input.cpp.s
 
+CMakeFiles/EngineV2.dir/Engine/Platform/Window.cpp.o: CMakeFiles/EngineV2.dir/flags.make
+CMakeFiles/EngineV2.dir/Engine/Platform/Window.cpp.o: /home/neo/GitHub/EngineV2.0/Engine/Platform/Window.cpp
+CMakeFiles/EngineV2.dir/Engine/Platform/Window.cpp.o: CMakeFiles/EngineV2.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/neo/GitHub/EngineV2.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/EngineV2.dir/Engine/Platform/Window.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EngineV2.dir/Engine/Platform/Window.cpp.o -MF CMakeFiles/EngineV2.dir/Engine/Platform/Window.cpp.o.d -o CMakeFiles/EngineV2.dir/Engine/Platform/Window.cpp.o -c /home/neo/GitHub/EngineV2.0/Engine/Platform/Window.cpp
+
+CMakeFiles/EngineV2.dir/Engine/Platform/Window.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/EngineV2.dir/Engine/Platform/Window.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/neo/GitHub/EngineV2.0/Engine/Platform/Window.cpp > CMakeFiles/EngineV2.dir/Engine/Platform/Window.cpp.i
+
+CMakeFiles/EngineV2.dir/Engine/Platform/Window.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/EngineV2.dir/Engine/Platform/Window.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/neo/GitHub/EngineV2.0/Engine/Platform/Window.cpp -o CMakeFiles/EngineV2.dir/Engine/Platform/Window.cpp.s
+
+CMakeFiles/EngineV2.dir/Engine/Renderer/Renderer.cpp.o: CMakeFiles/EngineV2.dir/flags.make
+CMakeFiles/EngineV2.dir/Engine/Renderer/Renderer.cpp.o: /home/neo/GitHub/EngineV2.0/Engine/Renderer/Renderer.cpp
+CMakeFiles/EngineV2.dir/Engine/Renderer/Renderer.cpp.o: CMakeFiles/EngineV2.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/neo/GitHub/EngineV2.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/EngineV2.dir/Engine/Renderer/Renderer.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EngineV2.dir/Engine/Renderer/Renderer.cpp.o -MF CMakeFiles/EngineV2.dir/Engine/Renderer/Renderer.cpp.o.d -o CMakeFiles/EngineV2.dir/Engine/Renderer/Renderer.cpp.o -c /home/neo/GitHub/EngineV2.0/Engine/Renderer/Renderer.cpp
+
+CMakeFiles/EngineV2.dir/Engine/Renderer/Renderer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/EngineV2.dir/Engine/Renderer/Renderer.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/neo/GitHub/EngineV2.0/Engine/Renderer/Renderer.cpp > CMakeFiles/EngineV2.dir/Engine/Renderer/Renderer.cpp.i
+
+CMakeFiles/EngineV2.dir/Engine/Renderer/Renderer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/EngineV2.dir/Engine/Renderer/Renderer.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/neo/GitHub/EngineV2.0/Engine/Renderer/Renderer.cpp -o CMakeFiles/EngineV2.dir/Engine/Renderer/Renderer.cpp.s
+
+CMakeFiles/EngineV2.dir/Engine/Renderer/Shader.cpp.o: CMakeFiles/EngineV2.dir/flags.make
+CMakeFiles/EngineV2.dir/Engine/Renderer/Shader.cpp.o: /home/neo/GitHub/EngineV2.0/Engine/Renderer/Shader.cpp
+CMakeFiles/EngineV2.dir/Engine/Renderer/Shader.cpp.o: CMakeFiles/EngineV2.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/neo/GitHub/EngineV2.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/EngineV2.dir/Engine/Renderer/Shader.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EngineV2.dir/Engine/Renderer/Shader.cpp.o -MF CMakeFiles/EngineV2.dir/Engine/Renderer/Shader.cpp.o.d -o CMakeFiles/EngineV2.dir/Engine/Renderer/Shader.cpp.o -c /home/neo/GitHub/EngineV2.0/Engine/Renderer/Shader.cpp
+
+CMakeFiles/EngineV2.dir/Engine/Renderer/Shader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/EngineV2.dir/Engine/Renderer/Shader.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/neo/GitHub/EngineV2.0/Engine/Renderer/Shader.cpp > CMakeFiles/EngineV2.dir/Engine/Renderer/Shader.cpp.i
+
+CMakeFiles/EngineV2.dir/Engine/Renderer/Shader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/EngineV2.dir/Engine/Renderer/Shader.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/neo/GitHub/EngineV2.0/Engine/Renderer/Shader.cpp -o CMakeFiles/EngineV2.dir/Engine/Renderer/Shader.cpp.s
+
 # Object files for target EngineV2
 EngineV2_OBJECTS = \
 "CMakeFiles/EngineV2.dir/src/main.cpp.o" \
 "CMakeFiles/EngineV2.dir/src/glad.c.o" \
 "CMakeFiles/EngineV2.dir/Engine/Core/Timer.cpp.o" \
+"CMakeFiles/EngineV2.dir/Engine/Core/Input.cpp.o" \
 "CMakeFiles/EngineV2.dir/Engine/Platform/Window.cpp.o" \
-"CMakeFiles/EngineV2.dir/Engine/Core/Input.cpp.o"
+"CMakeFiles/EngineV2.dir/Engine/Renderer/Renderer.cpp.o" \
+"CMakeFiles/EngineV2.dir/Engine/Renderer/Shader.cpp.o"
 
 # External object files for target EngineV2
 EngineV2_EXTERNAL_OBJECTS =
@@ -156,16 +186,19 @@ EngineV2_EXTERNAL_OBJECTS =
 bin/EngineV2.0: CMakeFiles/EngineV2.dir/src/main.cpp.o
 bin/EngineV2.0: CMakeFiles/EngineV2.dir/src/glad.c.o
 bin/EngineV2.0: CMakeFiles/EngineV2.dir/Engine/Core/Timer.cpp.o
-bin/EngineV2.0: CMakeFiles/EngineV2.dir/Engine/Platform/Window.cpp.o
 bin/EngineV2.0: CMakeFiles/EngineV2.dir/Engine/Core/Input.cpp.o
+bin/EngineV2.0: CMakeFiles/EngineV2.dir/Engine/Platform/Window.cpp.o
+bin/EngineV2.0: CMakeFiles/EngineV2.dir/Engine/Renderer/Renderer.cpp.o
+bin/EngineV2.0: CMakeFiles/EngineV2.dir/Engine/Renderer/Shader.cpp.o
 bin/EngineV2.0: CMakeFiles/EngineV2.dir/build.make
 bin/EngineV2.0: CMakeFiles/EngineV2.dir/compiler_depend.ts
 bin/EngineV2.0: ThirdParty/glfw/src/libglfw3.a
 bin/EngineV2.0: /usr/lib/librt.a
 bin/EngineV2.0: /usr/lib/libm.so
 bin/EngineV2.0: CMakeFiles/EngineV2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/neo/GitHub/EngineV2.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable bin/EngineV2.0"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/neo/GitHub/EngineV2.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable bin/EngineV2.0"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/EngineV2.dir/link.txt --verbose=$(VERBOSE)
+	/usr/bin/cmake -E copy_directory /home/neo/GitHub/EngineV2.0/Shaders /home/neo/GitHub/EngineV2.0/build/bin/Shaders
 
 # Rule to build all files generated by this target.
 CMakeFiles/EngineV2.dir/build: bin/EngineV2.0
