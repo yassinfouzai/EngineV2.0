@@ -24,6 +24,12 @@
   "output": "CMakeFiles/EngineV2.dir/Engine/Platform/Window.cpp.o"
 },
 {
+  "directory": "/home/neo/GitHub/EngineV2.0/build",
+  "command": "/usr/bin/c++ -DGLFW_INCLUDE_NONE -I/home/neo/GitHub/EngineV2.0 -I/home/neo/GitHub/EngineV2.0/ThirdParty/glad/include -I/home/neo/GitHub/EngineV2.0/ThirdParty/glfw/include -std=gnu++17 -o CMakeFiles/EngineV2.dir/Engine/Core/Input.cpp.o -c /home/neo/GitHub/EngineV2.0/Engine/Core/Input.cpp",
+  "file": "/home/neo/GitHub/EngineV2.0/Engine/Core/Input.cpp",
+  "output": "CMakeFiles/EngineV2.dir/Engine/Core/Input.cpp.o"
+},
+{
   "directory": "/home/neo/GitHub/EngineV2.0/build/ThirdParty/glfw/src",
   "command": "/usr/bin/cc -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/neo/GitHub/EngineV2.0/ThirdParty/glfw/include -I/home/neo/GitHub/EngineV2.0/ThirdParty/glfw/src -I/home/neo/GitHub/EngineV2.0/build/ThirdParty/glfw/src -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/context.c.o -c /home/neo/GitHub/EngineV2.0/ThirdParty/glfw/src/context.c",
   "file": "/home/neo/GitHub/EngineV2.0/ThirdParty/glfw/src/context.c",

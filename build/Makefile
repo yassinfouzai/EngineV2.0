@@ -213,6 +213,30 @@ update_mappings/fast:
 	$(MAKE) $(MAKESILENT) -f ThirdParty/glfw/src/CMakeFiles/update_mappings.dir/build.make ThirdParty/glfw/src/CMakeFiles/update_mappings.dir/build
 .PHONY : update_mappings/fast
 
+Engine/Core/Input.o: Engine/Core/Input.cpp.o
+.PHONY : Engine/Core/Input.o
+
+# target to build an object file
+Engine/Core/Input.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EngineV2.dir/build.make CMakeFiles/EngineV2.dir/Engine/Core/Input.cpp.o
+.PHONY : Engine/Core/Input.cpp.o
+
+Engine/Core/Input.i: Engine/Core/Input.cpp.i
+.PHONY : Engine/Core/Input.i
+
+# target to preprocess a source file
+Engine/Core/Input.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EngineV2.dir/build.make CMakeFiles/EngineV2.dir/Engine/Core/Input.cpp.i
+.PHONY : Engine/Core/Input.cpp.i
+
+Engine/Core/Input.s: Engine/Core/Input.cpp.s
+.PHONY : Engine/Core/Input.s
+
+# target to generate assembly for a file
+Engine/Core/Input.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EngineV2.dir/build.make CMakeFiles/EngineV2.dir/Engine/Core/Input.cpp.s
+.PHONY : Engine/Core/Input.cpp.s
+
 Engine/Core/Timer.o: Engine/Core/Timer.cpp.o
 .PHONY : Engine/Core/Timer.o
 
@@ -325,6 +349,9 @@ help:
 	@echo "... update_mappings"
 	@echo "... EngineV2"
 	@echo "... glfw"
+	@echo "... Engine/Core/Input.o"
+	@echo "... Engine/Core/Input.i"
+	@echo "... Engine/Core/Input.s"
 	@echo "... Engine/Core/Timer.o"
 	@echo "... Engine/Core/Timer.i"
 	@echo "... Engine/Core/Timer.s"

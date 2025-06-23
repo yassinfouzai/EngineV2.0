@@ -11,6 +11,7 @@ set(SRC_FILES
     src/glad.c
     Engine/Core/Timer.cpp
     Engine/Platform/Window.cpp
+    Engine/Core/Input.cpp
 )
 
 # Executable target

@@ -6,6 +6,7 @@ bin/EngineV2.0: \
   CMakeFiles/EngineV2.dir/src/glad.c.o \
   CMakeFiles/EngineV2.dir/Engine/Core/Timer.cpp.o \
   CMakeFiles/EngineV2.dir/Engine/Platform/Window.cpp.o \
+  CMakeFiles/EngineV2.dir/Engine/Core/Input.cpp.o \
   ThirdParty/glfw/src/libglfw3.a \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/../../../../lib/libdl.a \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/../../../../lib/libpthread.a \
@@ -52,6 +53,8 @@ CMakeFiles/EngineV2.dir/src/glad.c.o:
 CMakeFiles/EngineV2.dir/Engine/Core/Timer.cpp.o:
 
 CMakeFiles/EngineV2.dir/Engine/Platform/Window.cpp.o:
+
+CMakeFiles/EngineV2.dir/Engine/Core/Input.cpp.o:
 
 ThirdParty/glfw/src/libglfw3.a:
 
