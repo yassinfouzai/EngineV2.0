@@ -1,0 +1,10 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/neo/GitHub/EngineV2.0/build/cmake_install.cmake",
+		"/home/neo/GitHub/EngineV2.0/build/ThirdParty/glfw/cmake_install.cmake",
+		"/home/neo/GitHub/EngineV2.0/build/ThirdParty/glfw/src/cmake_install.cmake",
+		"/home/neo/GitHub/EngineV2.0/build/ThirdParty/glfw/docs/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

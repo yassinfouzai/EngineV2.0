@@ -2,9 +2,8 @@
 #include "Engine/Core/Timer.h"
 #include "Engine/Platform/Window.h"
 
-#define GLFW_INCLUDE_NONE
 #include <glad/glad.h>
-#include <GLFW/glfw3.h>
+#include <GLFW/glfw3.h>  // Needed for input constants like GLFW_KEY_ESCAPE
 
 int main() {
     Window window;
